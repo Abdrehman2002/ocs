@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Opera Cleaning Service Design System */
+
+@layer base {
+  :root {
+    /* Opera Cleaning Service Color System */
+    --primary: #00b4d5;       /* Aqua Blue – main CTA, highlights, icons */
+    --secondary: #69308e;     /* Royal Purple – hover states, accents */
+    --neutral-dark: #003c84;  /* Deep Navy – headlines, nav links, footer */
+    --accent-green: #24b76c;  /* Fresh Green – trust signals, eco highlights */
+    --background: #ffffff;    /* White – base background */
+    --text-dark: rgba(0, 60, 132, 0.9); /* Navy at 90% for body text */
+    --divider: rgba(0, 180, 213, 0.15); /* Aqua at 15% opacity for section dividers */
+    
+    /* Background & Surface Colors */
+    --background-hsl: 0 0% 100%;
+    --foreground: var(--neutral-dark);
+    
+    --card: 0 0% 100%;
+    --card-foreground: var(--neutral-dark);
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: var(--neutral-dark);
+    
+    /* Semantic Colors using New Color System */
+    --primary-hsl: 191 100% 42%;  /* #00b4d5 */
+    --primary-foreground: #ffffff;
+    
+    --secondary-hsl: 273 47% 37%; /* #69308e */
+    --secondary-foreground: #ffffff;
+    
+    --accent: var(--accent-green);
+    --accent-foreground: #ffffff;
+    
+    --muted: #f8fafc;
+    --muted-foreground: var(--text-dark);
+    
+    --destructive: #ef4444;
+    --destructive-foreground: #ffffff;
+    
+    --border: #e2e8f0;
+    --input: #e2e8f0;
+    --ring: var(--primary);
+    
+    --radius: 0.75rem;
+    
+    /* Hero Gradients */
+    --hero-gradient: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    --card-gradient: linear-gradient(145deg, #ffffff 0%, #f9fafb 100%);
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 16px -2px rgba(0, 180, 213, 0.1);
+    --shadow-hover: 0 8px 32px -4px rgba(0, 180, 213, 0.15);
+    --shadow-card: 0 2px 12px -2px rgba(0, 60, 132, 0.08);
+    
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Button Variants */
+  .btn-primary {
+    background: var(--primary);
+    color: white;
+    @apply px-8 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl;
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .btn-primary:hover {
+    background: var(--secondary);
+    box-shadow: var(--shadow-hover);
+  }
+  
+  .btn-secondary {
+    background: var(--accent-green);
+    color: white;
+    @apply px-8 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105;
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .btn-secondary:hover {
+    background: var(--primary);
+    box-shadow: var(--shadow-hover);
+  }
+  
+  .btn-outline {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    background: transparent;
+    @apply px-8 py-3 rounded-xl font-semibold transition-all duration-300;
+  }
+  
+  .btn-outline:hover {
+    background: var(--primary);
+    color: white;
+  }
+
+  /* Card Styles */
+  .service-card {
+    background: var(--background);
+    @apply p-8 rounded-2xl transition-all duration-300 hover:scale-105;
+    box-shadow: var(--shadow-card);
+  }
+  
+  .service-card:hover {
+    box-shadow: var(--shadow-hover);
+  }
+
+  /* Navigation */
+  .nav-link {
+    color: var(--neutral-dark);
+    @apply font-medium transition-colors duration-300;
+  }
+  
+  .nav-link:hover {
+    color: var(--primary);
+  }
+
+  /* Hero Section */
+  .hero-gradient {
+    background: var(--background);
+  }
+
+  /* Form Elements */
+  .form-input {
+    background: var(--background);
+    border: 1px solid var(--border);
+    @apply w-full px-4 py-3 rounded-xl transition-all duration-300;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px rgba(0, 180, 213, 0.2);
+  }
+  
+  .form-textarea {
+    background: var(--background);
+    border: 1px solid var(--border);
+    @apply w-full px-4 py-3 rounded-xl transition-all duration-300 resize-none;
+  }
+  
+  .form-textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px rgba(0, 180, 213, 0.2);
+  }
+
+  /* Section Headings */
+  .section-heading {
+    color: var(--neutral-dark);
+    @apply text-4xl font-bold mb-4;
+  }
+  
+  .section-subheading {
+    color: var(--text-dark);
+    @apply text-xl mb-12 max-w-2xl mx-auto;
+  }
+
+  /* Service Area Highlight */
+  .service-area-highlight {
+    color: var(--neutral-dark);
+    @apply text-sm font-medium mb-4;
+  }
+  
+  .service-area-highlight .highlight {
+    color: var(--primary);
+    @apply font-semibold;
+  }
+
+  /* Mobile Responsiveness Utilities */
+  .mobile-text-center {
+    @apply text-center;
+  }
+  
+  .mobile-full-width {
+    @apply w-full;
+  }
+  
+  .mobile-stack {
+    @apply flex-col space-y-4;
+  }
+}
+
+/* Mobile Responsiveness Improvements */
+@layer utilities {
+  /* Mobile-first responsive design */
+  @media (max-width: 640px) {
+    .service-card {
+      @apply p-4 hover:scale-100;
+    }
+    
+    .btn-primary, .btn-secondary, .btn-outline {
+      @apply px-6 py-3 text-base w-full;
+    }
+    
+    .section-heading {
+      @apply text-2xl leading-tight;
+    }
+    
+    .section-subheading {
+      @apply text-lg px-4;
+    }
+  }
+  
+  @media (min-width: 641px) and (max-width: 768px) {
+    .service-card {
+      @apply p-6;
+    }
+    
+    .section-heading {
+      @apply text-3xl;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .service-card {
+      @apply p-7;
+    }
+  }
+  
+  /* Ensure images are responsive */
+  .responsive-img {
+    @apply w-full h-auto object-cover;
+  }
+  
+  /* Mobile navigation improvements */
+  .mobile-nav-item {
+    @apply block w-full text-left py-3 px-4 text-lg;
+  }
+  
+  /* Mobile button improvements */
+  .mobile-btn-stack {
+    @apply flex flex-col space-y-3 w-full;
+  }
+  
+  .mobile-btn-stack > * {
+    @apply w-full justify-center;
+  }
+}
