@@ -25,7 +25,7 @@ const Navbar = () => {
             <img 
               src={logoFinal} 
               alt="OCS Opera Cleaning Specialists Logo" 
-              className="h-12 w-auto"
+              className="h-16 w-auto"
             />
           </div>
 
