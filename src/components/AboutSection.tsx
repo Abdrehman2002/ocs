@@ -1,5 +1,6 @@
 import { Shield, Award, Users, CheckCircle, Sparkles, Star } from 'lucide-react';
 import premiumOfficeImage from '@/assets/premium-office-cleaning.jpg';
+import logoFinal from '@/assets/logofinal.JPG';
 
 const AboutSection = () => {
   const achievements = [
@@ -59,7 +60,7 @@ const AboutSection = () => {
             <div>
               <div className="inline-block">
                 <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-left mb-4" style={{ color: 'var(--primary)' }}>
-                  About Opera Cleaning
+                  About Opera Cleaning Specialists
                 </h2>
                 <div className="h-1 w-32 mb-6" style={{ backgroundColor: 'var(--accent-green)' }}></div>
               </div>
@@ -81,7 +82,7 @@ const AboutSection = () => {
                 }}
               >
                 <p className="text-lg leading-relaxed font-medium" style={{ color: 'var(--text-dark)' }}>
-                  Opera Cleaning redefines cleaning as a <strong>premium service</strong>. With precision, eco-friendly care, 
+                  Opera Cleaning Specialists redefines cleaning as a <strong>premium service</strong>. With precision, eco-friendly care, 
                   and an unwavering commitment to excellence, we transform every space into a masterpiece that shines 
                   like a performance on the world's grandest stages.
                 </p>
@@ -153,7 +154,7 @@ const AboutSection = () => {
             <div className="relative overflow-hidden rounded-3xl shadow-2xl">
               <img 
                 src={premiumOfficeImage} 
-                alt="Premium Opera Cleaning Service - Professional Excellence"
+                alt="Premium Opera Cleaning Specialists - Professional Excellence"
                 className="responsive-img h-64 sm:h-80 md:h-96"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
@@ -161,8 +162,8 @@ const AboutSection = () => {
               {/* Logo Overlay */}
               <div className="absolute top-6 left-6">
                 <img 
-                  src="/logofinal.jpg" 
-                  alt="Opera Cleaning Service Logo" 
+                  src={logoFinal} 
+                  alt="Opera Cleaning Specialists Logo" 
                   className="h-12 w-auto opacity-90"
                   style={{ filter: 'brightness(0) invert(1)' }}
                 />

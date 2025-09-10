@@ -59,7 +59,7 @@ const Footer = () => {
                   className="text-xl sm:text-2xl font-bold mb-4 leading-tight"
                   style={{ color: 'var(--primary)' }}
                 >
-                  Opera Cleaning Service
+                  Opera Cleaning Specialists
                 </h3>
                 
                 {/* Tagline */}
@@ -162,7 +162,7 @@ const Footer = () => {
                     <MessageCircle size={16} style={{ color: 'var(--primary)' }} />
                   </div>
                   <div>
-                    <div className="font-medium">📱 WhatsApp</div>
+                    <div className="font-medium">WhatsApp</div>
                     <div className="text-sm opacity-75">Click here</div>
                   </div>
                 </a>
@@ -180,7 +180,7 @@ const Footer = () => {
                     <Phone size={16} style={{ color: 'var(--accent-green)' }} />
                   </div>
                   <div>
-                    <div className="font-medium">📞 Call</div>
+                    <div className="font-medium">Call</div>
                     <div className="text-sm">+61 497 113 976</div>
                   </div>
                 </a>
@@ -198,7 +198,7 @@ const Footer = () => {
                     <Mail size={16} style={{ color: 'var(--primary)' }} />
                   </div>
                   <div>
-                    <div className="font-medium">📧 Email</div>
+                    <div className="font-medium">Email</div>
                     <div className="text-sm">info.oper4@gmail.com</div>
                   </div>
                 </a>
@@ -218,8 +218,8 @@ const Footer = () => {
                     <Facebook size={16} style={{ color: 'var(--accent-green)' }} />
                   </div>
                   <div>
-                    <div className="font-medium">🌐 Facebook</div>
-                    <div className="text-sm">Opera Cleaning Service</div>
+                    <div className="font-medium">Facebook</div>
+                    <div className="text-sm">Opera Cleaning Specialists</div>
                   </div>
                 </a>
               </div>
@@ -235,7 +235,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-3 md:space-y-0">
             <div className="text-white/90 text-sm font-medium">
-              © {currentYear} Opera Cleaning Service. All Rights Reserved.
+              © {currentYear} Opera Cleaning Specialists. All Rights Reserved.
             </div>
             <div className="text-white/90 text-sm flex items-center font-medium">
               Designed by 

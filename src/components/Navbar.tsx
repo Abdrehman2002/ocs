@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X, Phone, MessageCircle } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import logoFinal from '@/assets/logofinal.JPG';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,8 +23,8 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/logofinal.jpg" 
-              alt="OCS Opera Cleaning Service Logo" 
+              src={logoFinal} 
+              alt="OCS Opera Cleaning Specialists Logo" 
               className="h-12 w-auto"
             />
           </div>

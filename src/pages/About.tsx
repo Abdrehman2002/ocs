@@ -40,7 +40,7 @@ const About = () => {
               <span style={{ color: 'var(--primary)' }}>Perfection</span>
             </h1>
             <p className="text-xl lg:text-2xl max-w-4xl mx-auto leading-relaxed" style={{ color: 'var(--text-dark)' }}>
-              Opera Cleaning Service isn't just about removing dust and dirt — we're about creating spaces 
+              Opera Cleaning Specialists isn't just about removing dust and dirt — we're about creating spaces 
               that feel fresh, healthy, and cared for. Our team of experienced cleaners is trained to deliver 
               more than a service: we deliver peace of mind.
             </p>
@@ -86,7 +86,7 @@ const About = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg mb-2" style={{ color: 'var(--neutral-dark)' }}>
-                          ✅ {promise.title}
+                          {promise.title}
                         </h4>
                         <p style={{ color: 'var(--text-dark)' }}>{promise.description}</p>
                       </div>
@@ -101,7 +101,7 @@ const About = () => {
               <div className="relative overflow-hidden rounded-3xl shadow-2xl">
                 <img 
                   src={premiumOfficeImage} 
-                  alt="Opera Cleaning Service - Professional team delivering premium cleaning"
+                  alt="Opera Cleaning Specialists - Professional team delivering premium cleaning"
                   className="w-full h-96 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>

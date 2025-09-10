@@ -51,10 +51,10 @@ const PaymentPolicy = () => {
                 </div>
                 <h4 className="font-semibold mb-2" style={{ color: 'var(--neutral-dark)' }}>Cards & Digital</h4>
                 <ul className="space-y-1 text-sm" style={{ color: 'var(--text-dark)' }}>
-                  <li>✅ Debit cards</li>
-                  <li>✅ Credit cards</li>
-                  <li>✅ Bank transfers</li>
-                  <li>✅ Digital payments</li>
+                  <li>Debit cards</li>
+                  <li>Credit cards</li>
+                  <li>Bank transfers</li>
+                  <li>Digital payments</li>
                 </ul>
               </div>
 
@@ -64,10 +64,10 @@ const PaymentPolicy = () => {
                 </div>
                 <h4 className="font-semibold mb-2" style={{ color: 'var(--neutral-dark)' }}>Automatic Billing</h4>
                 <ul className="space-y-1 text-sm" style={{ color: 'var(--text-dark)' }}>
-                  <li>✅ Recurring services</li>
-                  <li>✅ Scheduled payments</li>
-                  <li>✅ Invoice reminders</li>
-                  <li>✅ Payment notifications</li>
+                  <li>Recurring services</li>
+                  <li>Scheduled payments</li>
+                  <li>Invoice reminders</li>
+                  <li>Payment notifications</li>
                 </ul>
               </div>
 
@@ -77,10 +77,10 @@ const PaymentPolicy = () => {
                 </div>
                 <h4 className="font-semibold mb-2" style={{ color: 'var(--neutral-dark)' }}>Payment Terms</h4>
                 <ul className="space-y-1 text-sm" style={{ color: 'var(--text-dark)' }}>
-                  <li>✅ Cash accepted</li>
-                  <li>✅ Due on service day</li>
-                  <li>✅ Special arrangements</li>
-                  <li>✅ Secure processing</li>
+                  <li>Cash accepted</li>
+                  <li>Due on service day</li>
+                  <li>Special arrangements</li>
+                  <li>Secure processing</li>
                 </ul>
               </div>
             </div>
@@ -109,7 +109,7 @@ const PaymentPolicy = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center p-6 rounded-xl" style={{ backgroundColor: 'rgba(36, 183, 108, 0.05)' }}>
                 <CheckCircle className="h-12 w-12 mx-auto mb-4" style={{ color: 'var(--accent-green)' }} />
-                <h4 className="font-bold text-lg mb-2" style={{ color: 'var(--accent-green)' }}>✅ No Fee</h4>
+                <h4 className="font-bold text-lg mb-2" style={{ color: 'var(--accent-green)' }}>No Fee</h4>
                 <p className="font-semibold mb-2" style={{ color: 'var(--neutral-dark)' }}>Cancel ≥24 hours in advance</p>
                 <p className="text-sm" style={{ color: 'var(--text-dark)' }}>
                   Full cancellation with no charges when you give us 24+ hours notice.
@@ -118,7 +118,7 @@ const PaymentPolicy = () => {
 
               <div className="text-center p-6 rounded-xl" style={{ backgroundColor: 'rgba(255, 165, 0, 0.05)' }}>
                 <AlertTriangle className="h-12 w-12 mx-auto mb-4" style={{ color: '#ff9500' }} />
-                <h4 className="font-bold text-lg mb-2" style={{ color: '#ff9500' }}>⚠️ 50% Fee</h4>
+                <h4 className="font-bold text-lg mb-2" style={{ color: '#ff9500' }}>50% Fee</h4>
                 <p className="font-semibold mb-2" style={{ color: 'var(--neutral-dark)' }}>Cancel &lt;24 hours</p>
                 <p className="text-sm" style={{ color: 'var(--text-dark)' }}>
                   Late cancellations incur a 50% service fee to cover scheduling and preparation costs.
@@ -127,7 +127,7 @@ const PaymentPolicy = () => {
 
               <div className="text-center p-6 rounded-xl" style={{ backgroundColor: 'rgba(239, 68, 68, 0.05)' }}>
                 <XCircle className="h-12 w-12 mx-auto mb-4" style={{ color: '#ef4444' }} />
-                <h4 className="font-bold text-lg mb-2" style={{ color: '#ef4444' }}>❌ 100% Fee</h4>
+                <h4 className="font-bold text-lg mb-2" style={{ color: '#ef4444' }}>100% Fee</h4>
                 <p className="font-semibold mb-2" style={{ color: 'var(--neutral-dark)' }}>No-shows</p>
                 <p className="text-sm" style={{ color: 'var(--text-dark)' }}>
                   Full service fee applies when clients are unavailable at the scheduled time.
@@ -141,7 +141,7 @@ const PaymentPolicy = () => {
                 <div>
                   <p className="font-medium mb-2" style={{ color: 'var(--neutral-dark)' }}>Our Commitment to You</p>
                   <p className="text-sm" style={{ color: 'var(--text-dark)' }}>
-                    If Opera Cleaning needs to reschedule, we'll notify you ASAP and offer alternative times 
+                    If Opera Cleaning Specialists needs to reschedule, we'll notify you ASAP and offer alternative times 
                     that work for your schedule at no additional cost.
                   </p>
                 </div>

@@ -87,7 +87,7 @@ const WhyChooseUs = () => {
       name: "Sarah Johnson",
       location: "Residential Customer",
       rating: 5,
-      comment: "Opera Cleaning Service transformed our home! Their attention to detail is incredible, and I love that they use eco-friendly products safe for my kids."
+      comment: "Opera Cleaning Specialists transformed our home! Their attention to detail is incredible, and I love that they use eco-friendly products safe for my kids."
     },
     {
       name: "Michael Chen",
@@ -113,7 +113,7 @@ const WhyChooseUs = () => {
           <div className="text-center mb-16">
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-6" style={{ color: 'var(--neutral-dark)' }}>
               Why Families & Businesses Trust{' '}
-              <span style={{ color: 'var(--primary)' }}>Opera Cleaning</span>
+              <span style={{ color: 'var(--primary)' }}>Opera Cleaning Specialists</span>
             </h1>
             <p className="text-xl lg:text-2xl max-w-4xl mx-auto leading-relaxed" style={{ color: 'var(--text-dark)' }}>
               Experience the difference that professional, passionate cleaning makes. 

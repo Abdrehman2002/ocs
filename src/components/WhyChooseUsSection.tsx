@@ -62,11 +62,11 @@ const WhyChooseUsSection = () => {
             {/* Header */}
             <div className="mb-12">
               <h2 className="text-4xl lg:text-5xl font-bold mb-6" style={{ color: 'var(--neutral-dark)' }}>
-                Why Choose Opera Cleaning Service?
+                Why Choose Opera Cleaning Specialists?
               </h2>
               <div className="h-1 w-32 mb-8" style={{ backgroundColor: 'var(--primary)' }}></div>
               <p className="text-xl leading-relaxed" style={{ color: 'rgba(0, 60, 132, 0.8)' }}>
-                Choosing the right cleaning partner isn't just about a tidy space — it's about trust, reliability, and peace of mind. At Opera Cleaning Service, we go beyond the basics to deliver an experience that feels effortless, safe, and premium every time.
+                Choosing the right cleaning partner isn't just about a tidy space — it's about trust, reliability, and peace of mind. At Opera Cleaning Specialists, we go beyond the basics to deliver an experience that feels effortless, safe, and premium every time.
               </p>
             </div>
 
@@ -96,7 +96,7 @@ const WhyChooseUsSection = () => {
             <div className="mb-8">
               <p className="text-lg font-medium leading-relaxed" style={{ color: 'var(--text-dark)' }}>
                 <Sparkles className="inline h-5 w-5 mr-2" style={{ color: 'var(--accent-green)' }} />
-                With Opera Cleaning Service, you're not just getting a clean home — you're getting more free time, peace of mind, and the assurance that every corner will shine.
+                With Opera Cleaning Specialists, you're not just getting a clean home — you're getting more free time, peace of mind, and the assurance that every corner will shine.
               </p>
             </div>
 

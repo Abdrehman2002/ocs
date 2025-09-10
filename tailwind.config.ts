@@ -47,7 +47,7 @@ export default {
           DEFAULT: "var(--background)",
           foreground: "var(--neutral-dark)",
         },
-        // Opera Cleaning Service Brand Colors
+        // Opera Cleaning Specialists Brand Colors
         "neutral-dark": "var(--neutral-dark)",
         "accent-green": "var(--accent-green)",
         "text-dark": "var(--text-dark)",

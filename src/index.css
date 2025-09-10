@@ -4,11 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Opera Cleaning Service Design System */
+/* Opera Cleaning Specialists Design System */
 
 @layer base {
   :root {
-    /* Opera Cleaning Service Color System */
+    /* Opera Cleaning Specialists Color System */
     --primary: #00b4d5;       /* Aqua Blue – main CTA, highlights, icons */
     --secondary: #69308e;     /* Royal Purple – hover states, accents */
     --neutral-dark: #003c84;  /* Deep Navy – headlines, nav links, footer */
@@ -84,7 +84,7 @@
   .btn-primary {
     background: var(--primary);
     color: white;
-    @apply px-8 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl;
+    @apply px-8 py-3 rounded-xl font-semibold;
     box-shadow: var(--shadow-soft);
   }
   
@@ -96,7 +96,7 @@
   .btn-secondary {
     background: var(--accent-green);
     color: white;
-    @apply px-8 py-3 rounded-xl font-semibold transition-all duration-300 hover:scale-105;
+    @apply px-8 py-3 rounded-xl font-semibold;
     box-shadow: var(--shadow-soft);
   }
   
@@ -109,7 +109,7 @@
     border: 2px solid var(--primary);
     color: var(--primary);
     background: transparent;
-    @apply px-8 py-3 rounded-xl font-semibold transition-all duration-300;
+    @apply px-8 py-3 rounded-xl font-semibold;
   }
   
   .btn-outline:hover {
@@ -120,7 +120,7 @@
   /* Card Styles */
   .service-card {
     background: var(--background);
-    @apply p-8 rounded-2xl transition-all duration-300 hover:scale-105;
+    @apply p-8 rounded-2xl;
     box-shadow: var(--shadow-card);
   }
   
@@ -131,7 +131,7 @@
   /* Navigation */
   .nav-link {
     color: var(--neutral-dark);
-    @apply font-medium transition-colors duration-300;
+    @apply font-medium;
   }
   
   .nav-link:hover {
