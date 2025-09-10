@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Menu, X, Phone, MessageCircle } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import logoFinal from '@/assets/logofinal.JPG';
+import logoFinal2 from '@/assets/logofinal2.JPG';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,10 +23,17 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex items-center space-x-3">
+            {/* Desktop Logo */}
             <img 
               src={logoFinal} 
               alt="OCS Opera Cleaning Specialists Logo" 
-              className="h-16 w-auto"
+              className="hidden md:block h-16 w-auto"
+            />
+            {/* Mobile Logo */}
+            <img 
+              src={logoFinal2} 
+              alt="OCS Opera Cleaning Specialists Logo" 
+              className="md:hidden h-16 w-auto"
             />
           </div>
 
