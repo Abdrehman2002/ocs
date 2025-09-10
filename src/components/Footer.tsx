@@ -148,7 +148,7 @@ const Footer = () => {
               </h4>
               <div className="space-y-5">
                 <a
-                  href="https://wa.me/61497113976"
+                  href="https://wa.me/61452367372"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 text-white/80 hover:text-white transition-all duration-300 group"
@@ -168,7 +168,7 @@ const Footer = () => {
                 </a>
 
                 <a
-                  href="tel:+61497113976"
+                  href="tel:+61452367372"
                   className="flex items-center space-x-3 text-white/80 hover:text-white transition-all duration-300 group"
                   onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-green)'}
                   onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)'}
@@ -181,7 +181,7 @@ const Footer = () => {
                   </div>
                   <div>
                     <div className="font-medium">Call</div>
-                    <div className="text-sm">+61 497 113 976</div>
+                    <div className="text-sm">+61 452 367 372</div>
                   </div>
                 </a>
 

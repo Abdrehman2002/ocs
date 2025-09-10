@@ -238,7 +238,7 @@ const WhyChooseUs = () => {
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="https://wa.me/61497113976"
+                  href="https://wa.me/61452367372"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white px-8 py-4 rounded-xl font-semibold transition-colors inline-flex items-center justify-center space-x-2"
@@ -250,7 +250,7 @@ const WhyChooseUs = () => {
                   <span>Book Now - WhatsApp</span>
                 </a>
                 <a
-                  href="tel:+61497113976"
+                  href="tel:+61452367372"
                   className="border-2 border-white text-white px-8 py-4 rounded-xl font-semibold transition-colors"
                   onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'white'; e.currentTarget.style.color = 'var(--primary)'; }}
                   onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'white'; }}

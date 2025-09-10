@@ -134,7 +134,7 @@ const AboutSection = () => {
             {/* CTA Button */}
             <div className="pt-6">
               <a
-                href="https://wa.me/61497113976"
+                href="https://wa.me/61452367372"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-lg font-semibold px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"

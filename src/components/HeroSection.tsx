@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Hero Content */}
-          <div className="space-y-8">
+          <div className="space-y-8 order-2 lg:order-1">
             {/* Trust Badge */}
             <div className="flex items-center space-x-2 text-sm font-medium" style={{ color: 'var(--text-dark)' }}>
               <div className="flex items-center space-x-1">
@@ -39,7 +39,7 @@ const HeroSection = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <a
-                href="https://wa.me/61497113976"
+                href="https://wa.me/61452367372"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center space-x-3 btn-primary text-lg"
@@ -49,11 +49,11 @@ const HeroSection = () => {
               </a>
               
               <a
-                href="tel:+61497113976"
+                href="tel:+61452367372"
                 className="flex items-center justify-center space-x-3 btn-secondary text-lg"
               >
                 <Phone size={20} />
-                <span>Call +61 497 113 976</span>
+                <span>Call +61 452 367 372</span>
               </a>
             </div>
 
@@ -75,7 +75,7 @@ const HeroSection = () => {
           </div>
 
           {/* Hero Image */}
-          <div className="relative mt-12 lg:mt-0">
+          <div className="relative order-1 lg:order-2 mb-8 lg:mb-0 lg:mt-0">
             <div className="relative overflow-hidden rounded-3xl shadow-2xl">
               <img
                 src={heroImage}

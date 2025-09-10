@@ -148,7 +148,7 @@ const About = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/61497113976"
+                href="https://wa.me/61452367372"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary inline-flex items-center justify-center"
@@ -156,7 +156,7 @@ const About = () => {
                 Book Now - WhatsApp
               </a>
               <a
-                href="tel:+61497113976"
+                href="tel:+61452367372"
                 className="btn-outline inline-flex items-center justify-center"
               >
                 Call for Free Quote

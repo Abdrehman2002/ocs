@@ -239,7 +239,7 @@ const PaymentPolicy = () => {
                 <span>Contact Us</span>
               </Link>
               <a
-                href="tel:+61497113976"
+                href="tel:+61452367372"
                 className="btn-outline inline-flex items-center justify-center space-x-2"
               >
                 <Phone size={20} />

@@ -56,14 +56,14 @@ const Navbar = () => {
             {/* CTA Buttons */}
             <div className="flex items-center space-x-4 ml-8">
               <a
-                href="tel:+61497113976"
+                href="tel:+61452367372"
                 className="flex items-center space-x-2 btn-outline px-4 py-2 text-sm"
               >
                 <Phone size={16} />
                 <span>Call Us</span>
               </a>
               <a
-                href="https://wa.me/61497113976"
+                href="https://wa.me/61452367372"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 btn-primary px-4 py-2 text-sm"
@@ -110,14 +110,14 @@ const Navbar = () => {
               {/* Mobile CTA Buttons */}
               <div className="mobile-btn-stack px-4 mt-4">
                 <a
-                  href="tel:+61497113976"
+                  href="tel:+61452367372"
                   className="flex items-center justify-center space-x-2 btn-outline"
                 >
                   <Phone size={16} />
                   <span>Call Us</span>
                 </a>
                 <a
-                  href="https://wa.me/61497113976"
+                  href="https://wa.me/61452367372"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center space-x-2 btn-primary"

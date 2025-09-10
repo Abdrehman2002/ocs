@@ -25,7 +25,7 @@ Email: ${formData.email}
 Phone: ${formData.phone}
 Message: ${formData.message}`;
 
-    const whatsappUrl = `https://wa.me/61497113976?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/61452367372?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 
     toast({
@@ -53,15 +53,15 @@ Message: ${formData.message}`;
     {
       icon: Phone,
       title: "Call Us Today",
-      value: "+61 497 113 976",
-      href: "tel:+61497113976",
+      value: "+61 452 367 372",
+      href: "tel:+61452367372",
       description: "Speak directly with our team for immediate assistance"
     },
     {
       icon: MessageCircle,
       title: "Book Now on WhatsApp",
       value: "Quick Booking",
-      href: "https://wa.me/61497113976",
+      href: "https://wa.me/61452367372",
       description: "Instant booking and quotes via WhatsApp"
     },
     {
