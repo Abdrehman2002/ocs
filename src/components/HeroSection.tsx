@@ -3,7 +3,7 @@ import heroImage from '@/assets/hero-cleaning.jpg';
 
 const HeroSection = () => {
   return (
-    <section id="home" className="hero-gradient min-h-screen flex items-center py-20">
+    <section id="home" className="hero-gradient min-h-screen flex items-center py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Hero Content */}

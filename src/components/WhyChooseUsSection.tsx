@@ -53,7 +53,7 @@ const WhyChooseUsSection = () => {
   ];
 
   return (
-    <section id="why-choose-us" className="py-24" style={{ backgroundColor: 'white' }}>
+    <section id="why-choose-us" className="py-16" style={{ backgroundColor: 'white' }}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Two Column Layout */}
         <div className="grid lg:grid-cols-2 gap-16 items-center">

@@ -196,7 +196,7 @@ const ServicesSection = () => {
   };
 
   return (
-    <section id="services" className="py-24 relative overflow-hidden" style={{ backgroundColor: 'var(--background)' }}>
+    <section id="services" className="py-16 relative overflow-hidden" style={{ backgroundColor: 'var(--background)' }}>
       {/* Background Elements */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10">
