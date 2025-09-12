@@ -101,7 +101,7 @@ Message: ${formData.message}`;
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}
           <div className="space-y-8">
-            <div>
+            <div className="text-center lg:text-left">
               <h3 className="text-2xl font-bold mb-4" style={{ color: 'var(--neutral-dark)' }}>Send Us a Message</h3>
               <p style={{ color: 'var(--text-dark)' }}>
                 Fill out the form below and we'll get back to you within 24 hours with your personalized quote.
@@ -208,7 +208,7 @@ Message: ${formData.message}`;
 
           {/* Contact Information */}
           <div className="space-y-8">
-            <div>
+            <div className="text-center lg:text-left">
               <h3 className="text-2xl font-bold mb-4" style={{ color: 'var(--neutral-dark)' }}>Contact Information</h3>
               <p style={{ color: 'var(--text-dark)' }}>
                 Prefer to reach out directly? Use any of the methods below to get in touch with our team.
@@ -222,7 +222,7 @@ Message: ${formData.message}`;
                   href={method.href}
                   target={method.href.startsWith('http') ? '_blank' : undefined}
                   rel={method.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                  className="service-card flex items-center space-x-4 transition-all hover:scale-105"
+                  className="service-card flex flex-col items-center text-center lg:flex-row lg:items-center lg:text-left lg:space-x-4 space-y-4 lg:space-y-0 transition-all hover:scale-105"
                 >
                   <div className="p-3 rounded-xl" style={{ backgroundColor: 'rgba(0, 180, 213, 0.1)' }}>
                     <method.icon className="h-6 w-6" style={{ color: 'var(--primary)' }} />
@@ -237,9 +237,9 @@ Message: ${formData.message}`;
             </div>
 
             {/* Social Media */}
-            <div className="service-card">
+            <div className="service-card text-center lg:text-left">
               <h4 className="font-semibold mb-4" style={{ color: 'var(--neutral-dark)' }}>Follow Us</h4>
-              <div className="flex items-center space-x-4">
+              <div className="flex flex-col items-center space-y-4 lg:flex-row lg:items-center lg:space-x-4 lg:space-y-0">
                 <a
                   href="https://www.facebook.com/share/14M81TstdSB/?mibextid=wwXIfr"
                   target="_blank"
@@ -261,8 +261,8 @@ Message: ${formData.message}`;
             </div>
 
             {/* Service Areas */}
-            <div className="service-card">
-              <div className="flex items-center space-x-3 mb-4">
+            <div className="service-card text-center lg:text-left">
+              <div className="flex flex-col items-center space-y-3 lg:flex-row lg:items-center lg:space-x-3 lg:space-y-0 mb-4">
                 <MapPin className="h-6 w-6" style={{ color: 'var(--accent-green)' }} />
                 <h4 className="font-semibold" style={{ color: 'var(--neutral-dark)' }}>Service Areas</h4>
               </div>

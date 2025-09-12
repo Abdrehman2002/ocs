@@ -52,7 +52,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
             
             {/* Column 1 - Business Name & Tagline */}
-            <div className="lg:pr-8">
+            <div className="lg:pr-8 text-center sm:text-left lg:text-left">
               <div className="mb-8">
                 {/* Business Name */}
                 <h3 
@@ -77,7 +77,7 @@ const Footer = () => {
             </div>
 
             {/* Column 2 - Quick Links */}
-            <div className="relative">
+            <div className="relative text-center sm:text-left lg:text-left">
               <h4 className="text-lg sm:text-xl font-bold mb-4 sm:mb-6" style={{ color: 'var(--primary)' }}>
                 Quick Links
               </h4>
@@ -86,7 +86,7 @@ const Footer = () => {
                   <li key={link.name}>
                     <Link
                       to={link.href}
-                      className="text-white/80 hover:text-white transition-all duration-300 flex items-center group"
+                      className="text-white/80 hover:text-white transition-all duration-300 flex items-center justify-center sm:justify-start lg:justify-start group"
                       onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-green)'}
                       onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)'}
                     >
@@ -109,7 +109,7 @@ const Footer = () => {
             </div>
 
             {/* Column 3 - Services */}
-            <div className="relative">
+            <div className="relative text-center sm:text-left lg:text-left">
               <h4 className="text-lg sm:text-xl font-bold mb-4 sm:mb-6" style={{ color: 'var(--primary)' }}>
                 Services
               </h4>
@@ -118,7 +118,7 @@ const Footer = () => {
                   <li key={service.name}>
                     <Link
                       to={service.href}
-                      className="text-white/70 hover:text-white text-sm transition-all duration-300 flex items-center group"
+                      className="text-white/70 hover:text-white text-sm transition-all duration-300 flex items-center justify-center sm:justify-start lg:justify-start group"
                       onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-green)'}
                       onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255, 255, 255, 0.7)'}
                     >
@@ -142,7 +142,7 @@ const Footer = () => {
             </div>
 
             {/* Column 4 - Contact Info */}
-            <div className="relative">
+            <div className="relative text-center sm:text-left lg:text-left">
               <h4 className="text-lg sm:text-xl font-bold mb-4 sm:mb-6" style={{ color: 'var(--primary)' }}>
                 Contact Info
               </h4>
@@ -151,7 +151,7 @@ const Footer = () => {
                   href="https://wa.me/61452367372"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center space-x-3 text-white/80 hover:text-white transition-all duration-300 group"
+                  className="flex flex-col items-center space-y-3 sm:flex-row sm:items-center sm:space-x-3 sm:space-y-0 lg:flex-row lg:items-center lg:space-x-3 lg:space-y-0 text-white/80 hover:text-white transition-all duration-300 group"
                   onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-green)'}
                   onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)'}
                 >
@@ -169,7 +169,7 @@ const Footer = () => {
 
                 <a
                   href="tel:+61452367372"
-                  className="flex items-center space-x-3 text-white/80 hover:text-white transition-all duration-300 group"
+                  className="flex flex-col items-center space-y-3 sm:flex-row sm:items-center sm:space-x-3 sm:space-y-0 lg:flex-row lg:items-center lg:space-x-3 lg:space-y-0 text-white/80 hover:text-white transition-all duration-300 group"
                   onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-green)'}
                   onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)'}
                 >
@@ -187,7 +187,7 @@ const Footer = () => {
 
                 <a
                   href="mailto:info.oper4@gmail.com"
-                  className="flex items-center space-x-3 text-white/80 hover:text-white transition-all duration-300 group"
+                  className="flex flex-col items-center space-y-3 sm:flex-row sm:items-center sm:space-x-3 sm:space-y-0 lg:flex-row lg:items-center lg:space-x-3 lg:space-y-0 text-white/80 hover:text-white transition-all duration-300 group"
                   onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-green)'}
                   onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)'}
                 >
@@ -207,7 +207,7 @@ const Footer = () => {
                   href="https://www.facebook.com/share/14M81TstdSB/?mibextid=wwXIfr"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center space-x-3 text-white/80 hover:text-white transition-all duration-300 group"
+                  className="flex flex-col items-center space-y-3 sm:flex-row sm:items-center sm:space-x-3 sm:space-y-0 lg:flex-row lg:items-center lg:space-x-3 lg:space-y-0 text-white/80 hover:text-white transition-all duration-300 group"
                   onMouseEnter={(e) => e.currentTarget.style.color = 'var(--accent-green)'}
                   onMouseLeave={(e) => e.currentTarget.style.color = 'rgba(255, 255, 255, 0.8)'}
                 >

@@ -60,11 +60,11 @@ const WhyChooseUsSection = () => {
           {/* Left: Content */}
           <div>
             {/* Header */}
-            <div className="mb-12">
+            <div className="mb-12 text-center lg:text-left">
               <h2 className="text-4xl lg:text-5xl font-bold mb-6" style={{ color: 'var(--neutral-dark)' }}>
                 Why Choose Opera Cleaning Specialists?
               </h2>
-              <div className="h-1 w-32 mb-8" style={{ backgroundColor: 'var(--primary)' }}></div>
+              <div className="h-1 w-32 mx-auto lg:mx-0 mb-8" style={{ backgroundColor: 'var(--primary)' }}></div>
               <p className="text-xl leading-relaxed" style={{ color: 'rgba(0, 60, 132, 0.8)' }}>
                 Choosing the right cleaning partner isn't just about a tidy space — it's about trust, reliability, and peace of mind. At Opera Cleaning Specialists, we go beyond the basics to deliver an experience that feels effortless, safe, and premium every time.
               </p>
@@ -73,7 +73,7 @@ const WhyChooseUsSection = () => {
             {/* Features List */}
             <div className="space-y-6 mb-10">
               {features.map((feature, index) => (
-                <div key={index} className="flex items-start space-x-4">
+                <div key={index} className="flex flex-col items-center text-center lg:flex-row lg:items-start lg:text-left lg:space-x-4 space-y-4 lg:space-y-0">
                   <div 
                     className="p-3 rounded-xl flex-shrink-0" 
                     style={{ backgroundColor: `${getColorValue(feature.color)}15` }}
@@ -93,7 +93,7 @@ const WhyChooseUsSection = () => {
             </div>
 
             {/* Closing Line */}
-            <div className="mb-8">
+            <div className="mb-8 text-center lg:text-left">
               <p className="text-lg font-medium leading-relaxed" style={{ color: 'var(--text-dark)' }}>
                 <Sparkles className="inline h-5 w-5 mr-2" style={{ color: 'var(--accent-green)' }} />
                 With Opera Cleaning Specialists, you're not just getting a clean home — you're getting more free time, peace of mind, and the assurance that every corner will shine.
@@ -101,7 +101,7 @@ const WhyChooseUsSection = () => {
             </div>
 
             {/* CTA Button */}
-            <div>
+            <div className="text-center lg:text-left">
               <Link
                 to="/services"
                 className="inline-flex items-center space-x-3 px-8 py-4 rounded-xl text-lg font-semibold text-white transition-all duration-300 hover:shadow-lg"

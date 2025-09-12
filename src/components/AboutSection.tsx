@@ -57,23 +57,23 @@ const AboutSection = () => {
           {/* Content Side - Left */}
           <div className="space-y-10">
             {/* Header */}
-            <div>
+            <div className="text-center lg:text-left">
               <div className="inline-block">
-                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-left mb-4" style={{ color: 'var(--primary)' }}>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4" style={{ color: 'var(--primary)' }}>
                   About Opera Cleaning Specialists
                 </h2>
-                <div className="h-1 w-32 mb-6" style={{ backgroundColor: 'var(--accent-green)' }}></div>
+                <div className="h-1 w-32 mx-auto lg:mx-0 mb-6" style={{ backgroundColor: 'var(--accent-green)' }}></div>
               </div>
               <p className="text-base md:text-lg lg:text-xl font-medium mb-4" style={{ color: 'var(--secondary)' }}>
                 Where Premium Meets Perfection
               </p>
-              <div className="service-area-highlight mb-6">
+              <div className="service-area-highlight mb-6 text-center lg:text-left">
                 We proudly provide cleaning services <span className="highlight">all across Melbourne.</span>
               </div>
             </div>
 
             {/* Luxury About Text */}
-            <div className="space-y-6">
+            <div className="space-y-6 text-center lg:text-left">
               <div 
                 className="p-6 rounded-2xl border-l-4 border-opacity-50"
                 style={{ 
@@ -101,7 +101,7 @@ const AboutSection = () => {
             </div>
 
             {/* Values */}
-            <div className="space-y-8">
+            <div className="space-y-8 text-center lg:text-left">
               <h3 className="text-2xl font-bold" style={{ color: 'var(--secondary)' }}>
                 Our Premium Commitments
               </h3>
@@ -132,7 +132,7 @@ const AboutSection = () => {
             </div>
 
             {/* CTA Button */}
-            <div className="pt-6">
+            <div className="pt-6 text-center lg:text-left">
               <a
                 href="https://wa.me/61452367372"
                 target="_blank"

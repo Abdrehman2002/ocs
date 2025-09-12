@@ -216,7 +216,7 @@ const ServicesSection = () => {
             </h2>
             <div className="h-1 w-32 mx-auto mb-6" style={{ backgroundColor: 'var(--accent-green)' }}></div>
           </div>
-          <p className="text-base md:text-lg lg:text-xl max-w-4xl mx-auto leading-relaxed" style={{ color: 'var(--text-dark)' }}>
+          <p className="text-base md:text-lg lg:text-xl max-w-4xl mx-auto leading-relaxed text-center md:text-left lg:text-left" style={{ color: 'var(--text-dark)' }}>
             From residential deep cleans to specialized commercial services, we deliver premium cleaning 
             solutions with professional expertise, eco-friendly products, and unmatched attention to detail.
           </p>
@@ -286,9 +286,9 @@ const ServicesSection = () => {
 
         {/* Service Area Notice */}
         <div className="text-center mt-16">
-          <div className="inline-flex items-center space-x-2 px-6 py-3 rounded-full" style={{ backgroundColor: 'rgba(0, 180, 213, 0.1)' }}>
+          <div className="inline-flex items-center justify-center space-x-2 px-6 py-3 rounded-full" style={{ backgroundColor: 'rgba(0, 180, 213, 0.1)' }}>
             <MapPin className="h-5 w-5" style={{ color: 'var(--primary)' }} />
-            <span className="text-base font-medium" style={{ color: 'var(--neutral-dark)' }}>
+            <span className="text-base font-medium text-center" style={{ color: 'var(--neutral-dark)' }}>
               We proudly provide cleaning services <span style={{ color: 'var(--primary)', fontWeight: 'bold' }}>all across Melbourne.</span>
             </span>
           </div>
